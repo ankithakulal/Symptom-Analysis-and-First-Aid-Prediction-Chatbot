@@ -13,7 +13,7 @@ __📁Project Structure__
 
 __🧠Technologies Used__
 
--Python 🐍
+- Python 🐍
 
 - scikit-learn for model training (TF-IDF + Naive Bayes)
 
