@@ -2,13 +2,15 @@
 
 Machine learning and semantic search–based chatbot that helps users find appropriate first aid solutions based on problem descriptions. It uses natural language processing and similarity matching to provide accurate recommendations.
 
-Project Structure
+__📁Project Structure__
 
 app.py               # Streamlit web app interface
+
 prediction.py        # Console-based version of the prediction logic
+
 firstaid.xlsx        # Dataset containing "Problem" and "Solution" pairs
 
-Technologies Used
+__🧠Technologies Used__
 Python 🐍
 
 scikit-learn for model training (TF-IDF + Naive Bayes)
@@ -21,14 +23,14 @@ Pandas for data handling
 
 Torch for tensor operations
 
-📚 Dataset
+__📚 Dataset__
 The dataset (firstaid.xlsx) contains two columns:
 
 Problem: Description of the first aid situation.
 
 Solution: The appropriate first aid response.
 
-🚀 How It Works
+__🚀 How It Works__
 ✅ Console Version (prediction.py)
 Loads the dataset.
 
@@ -47,7 +49,7 @@ Shows predicted first aid solution and similarity score.
 
 Stores recent searches in the sidebar.
 
-💡 Features
+__💡 Features__
 Handles free-text problem descriptions
 
 Uses semantic matching for intelligent prediction
