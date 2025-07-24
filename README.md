@@ -4,25 +4,27 @@ Machine learning and semantic search–based chatbot that helps users find appro
 
 __📁Project Structure__
 
--app.py               # Streamlit web app interface
+- app.py               # Streamlit web app interface
 
--prediction.py        # Console-based version of the prediction logic
+- prediction.py        # Console-based version of the prediction logic
 
--firstaid.xlsx        # Dataset containing "Problem" and "Solution" pairs
+- firstaid.xlsx        # Dataset containing "Problem" and "Solution" pairs
+
 
 __🧠Technologies Used__
 
 -Python 🐍
 
--scikit-learn for model training (TF-IDF + Naive Bayes)
+- scikit-learn for model training (TF-IDF + Naive Bayes)
 
--sentence-transformers for semantic similarity
+- sentence-transformers for semantic similarity
 
--Streamlit for the web-based interface
+- Streamlit for the web-based interface
 
--Pandas for data handling
+- Pandas for data handling
 
--Torch for tensor operations
+- Torch for tensor operations
+
 
 __📚 Dataset__
 
@@ -31,6 +33,7 @@ The dataset (firstaid.xlsx) contains two columns:
 Problem: Description of the first aid situation.
 
 Solution: The appropriate first aid response.
+
 
 __🚀 How It Works__
 
@@ -53,15 +56,16 @@ Shows predicted first aid solution and similarity score.
 
 Stores recent searches in the sidebar.
 
+
 __💡 Features__
 
-Handles free-text problem descriptions
+- Handles free-text problem descriptions
 
-Uses semantic matching for intelligent prediction
+- Uses semantic matching for intelligent prediction
 
-Gives confidence scores based on similarity
+- Gives confidence scores based on similarity
 
-Stores recent problem searches
+- Stores recent problem searches
 
-Simple, clean UI with Streamlit
+- Simple, clean UI with Streamlit
 
